@@ -30,8 +30,70 @@
       rel="stylesheet"
     />
 
-    <!-- Font Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico" />
+    <style>
+      .rpl {
+        background: #ed2224;
+        padding: 100px 0px;
+      }
+
+      .rpl-text {
+        text-align: center;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-weight: 900;
+        color: #fff;
+      }
+
+      .wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .btn-ripple {
+        display: inline;
+        background: transparent;
+        cursor: pointer;
+        border: 4px solid #fff;
+        color: #fff;
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 100%;
+        text-transform: uppercase;
+        font-family: "Muli-LightItalic", Helvetica;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 600;
+        animation: ripple 0.8s linear infinite;
+        transition: all 0.7s ease;
+      }
+      .btn-ripple:hover {
+        color: #fff;
+        transform: scale(1.1);
+      }
+      .btn-ripple:focus {
+        outline: none;
+      }
+
+      @keyframes ripple {
+        0% {
+          box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3),
+            0 0 0 1px rgba(255, 255, 255, 0.3),
+            0 0 0 3px rgba(255, 255, 255, 0.3),
+            0 0 0 5px rgba(255, 255, 255, 0.3);
+        }
+        100% {
+          box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3),
+            0 0 0 4px rgba(255, 255, 255, 0.3),
+            0 0 0 20px rgba(255, 255, 255, 0), 0 0 0 30px rgba(255, 255, 255, 0);
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -422,6 +484,19 @@
     </section>
     <!--end section-grey-->
 
+    <section>
+      <div class="rpl">
+        <h3 class="rpl-text">Check your rpl eligibility in 60s</h3>
+        <div class="wrap">
+          <a
+            href="https://www.atr.edu.au/check-your-rpl-eligibility"
+            class="btn-ripple"
+            >Click Here</a
+          >
+        </div>
+      </div>
+    </section>
+
     <!--begin features section -->
     <section class="section-grey section-bottom-border" id="features">
       <!--begin container -->
@@ -708,6 +783,19 @@
     </section>
     <!--end section-white -->
 
+    <section>
+      <div class="rpl">
+        <h3 class="rpl-text">Check your rpl eligibility in 60s</h3>
+        <div class="wrap">
+          <a
+            href="https://www.atr.edu.au/check-your-rpl-eligibility"
+            class="btn-ripple"
+            >Click Here</a
+          >
+        </div>
+      </div>
+    </section>
+
     <!--begin section-white -->
     <section class="section-grey section-bottom-border" id="about">
       <!--begin container -->
@@ -902,31 +990,18 @@
     </section>
     <!--end testimonials section -->
 
-    <!--begin cta section -->
-    <section class="section-blue-cta" id="features">
-      <div class="image-green-overlay"></div>
-
-      <!--begin container -->
-      <div class="container">
-        <!--begin row -->
-        <div class="row">
-          <!--begin col-md-12-->
-          <div class="col-md-12 text-center padding-bottom-10">
-            <h3 class="section-title white-text">
-              Ready to start your career?
-            </h3>
-
-            <p class="section-subtitle white margin-bottom-30">
-              Get a free, no obligation quote in three easy steps.
-            </p>
-          </div>
-          <!--end col-md-12 -->
+    <section>
+      <div class="rpl">
+        <h3 class="rpl-text">Check your rpl eligibility in 60s</h3>
+        <div class="wrap">
+          <a
+            href="https://www.atr.edu.au/check-your-rpl-eligibility"
+            class="btn-ripple"
+            >Click Here</a
+          >
         </div>
-        <!--end row -->
       </div>
-      <!--end container -->
     </section>
-    <!--end cta section -->
 
     <!--begin contact -->
     <section class="section-white section-bottom-border" id="contact">
