@@ -22,6 +22,70 @@
 	<link rel="stylesheet" href="css/colors.css">
 	<!-- include the site responsive stylesheet -->
 	<link rel="stylesheet" href="css/responsive.css">
+
+	<style>
+		.rpl {
+			background: #92241D;
+			padding: 100px 0px;
+		}
+
+		.rpl-text {
+		text-align: center;
+		margin-bottom: 50px;
+		text-transform: uppercase;
+		font-weight: 900;
+		color: #fff;
+		}
+
+		.wrap {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		}
+
+		.btn-ripple {
+		display: inline;
+		background: transparent;
+		cursor: pointer;
+		border: 4px solid #fff;
+		color: #fff;
+		height: 100px;
+		width: 100px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border-radius: 100%;
+		text-transform: uppercase;
+		font-family: "Muli-LightItalic", Helvetica;
+		font-size: 16px;
+		line-height: 20px;
+		font-weight: 600;
+		animation: ripple 0.8s linear infinite;
+		transition: all 0.7s ease;
+		}
+		.btn-ripple:hover {
+		color: #fff;
+		transform: scale(1.1);
+		}
+		.btn-ripple:focus {
+		outline: none;
+		}
+
+		@keyframes ripple {
+		0% {
+			box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3),
+			0 0 0 1px rgba(255, 255, 255, 0.3), 0 0 0 3px rgba(255, 255, 255, 0.3),
+			0 0 0 5px rgba(255, 255, 255, 0.3);
+		}
+		100% {
+			box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3),
+			0 0 0 4px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0),
+			0 0 0 30px rgba(255, 255, 255, 0);
+		}
+		}
+	</style>
 </head>
 <body>
 	<!-- pageWrapper -->
@@ -69,7 +133,7 @@
 			<!-- scrollToIntroBlock -->
 			<div id="scrollToIntroBlock" class="mt-n12 pt-12 mt-lg-n16 pt-lg-16 mt-xl-n20 pt-xl-20">
 				<!-- introBlock -->
-				<section class="introBlock d-flex w-100 bgCover text-center position-relative text-white" style="background-image: url(images/banner.jpg);">
+				<section class="introBlock d-flex w-100 bgCover text-center position-relative text-white" style="background-image: url(./images/banner.jpg);">
 					<div class="alignHolder w-100 d-flex align-items-center">
 						<div class="align w-100 pt-20 pt-md-24 pt-lg-30 pt-xl-38 pb-3 pb-md-10">
 							<div class="container position-relative mt-10">
@@ -85,9 +149,6 @@
 											We offer a range of certified courses to support you with training and preferences that will foster your career and skill in professional development with our expert instructors.
 										</p>
 									</div>
-									<a href="https://uct.edu.au/check-your-eligibility-for-rpl/" class="btn btnTheme position-relative border-0 p-0 mt-4 wow bounceIn" data-wow-delay="1s" data-hover="Check Your RPL Eligibility">
-										<span class="d-block btnText">Check Your RPL Eligibility</span>
-									</a>
 								</div>
 								<div class="text-dark position-relative catsWrap mx-auto mt-6 mt-md-0 wow flipInX" data-wow-delay="1.5s">
 									<strong class="arrowTag arrowTag01 fontThird mb-4 mb-md-0 d-block">Steps for achieving RPL <span class="artgArrow1 position-absolute d-none d-md-block"><img src="images/arrow1.png" alt="arrow"></span></strong>
@@ -177,6 +238,25 @@
 					</div>
 				</section>
 			</div>
+			<section class="rpl">
+				<div class="container">
+					<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<div class="text-center">
+						<h3 class="rpl-text">
+							Check your RPL eligibility in 60 second
+						</h3>
+						</div>
+					</div>
+					<!-- .col-md-8 end -->
+					</div>
+					<!-- .row end -->
+					<div class='wrap'>
+					<a href="https://uct.edu.au/check-your-eligibility-for-rpl/" class="btn-ripple">Click Here</a>
+					</div>
+				</div>
+				<!-- .container end -->
+			</section>
 			<!-- scrollToAboutUs -->
 			<div id="scrollToAboutUs" class="mt-n12 pt-12 mt-lg-n16 pt-lg-16 mt-xl-n20 pt-xl-20">
 				<!-- aboutUsBlock -->
@@ -258,6 +338,25 @@
 				<span class="ronder rouder2 inaccessible position-absolute">
 					<img src="images/pattern06.png" alt="image">
 				</span>
+			</section>
+			<section class="rpl">
+				<div class="container">
+					<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<div class="text-center">
+						<h3 class="rpl-text">
+							Check your RPL eligibility in 60 second
+						</h3>
+						</div>
+					</div>
+					<!-- .col-md-8 end -->
+					</div>
+					<!-- .row end -->
+					<div class='wrap'>
+					<a href="https://uct.edu.au/check-your-eligibility-for-rpl/" class="btn-ripple">Click Here</a>
+					</div>
+				</div>
+				<!-- .container end -->
 			</section>
 			<!-- scrollToOurCourses -->
 			<div class="mt-n12 pt-12 mt-lg-n16 pt-lg-16 mt-xl-n20 pt-xl-20">
@@ -428,6 +527,25 @@
 						</div>
 					</div>
 				</div>
+			</section>
+			<section class="rpl">
+				<div class="container">
+					<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<div class="text-center">
+						<h3 class="rpl-text">
+							Check your RPL eligibility in 60 second
+						</h3>
+						</div>
+					</div>
+					<!-- .col-md-8 end -->
+					</div>
+					<!-- .row end -->
+					<div class='wrap'>
+					<a href="https://uct.edu.au/check-your-eligibility-for-rpl/" class="btn-ripple">Click Here</a>
+					</div>
+				</div>
+				<!-- .container end -->
 			</section>
 			<!-- scrollToOurStudents -->
 			<div id="scrollToOurTesti" class="mt-n12 pt-12 mt-lg-n16 pt-lg-16 mt-xl-n20 pt-xl-20">
