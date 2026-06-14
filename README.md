@@ -1,4 +1,6 @@
 <!-- repo-card -->
+![marketing-pages](docs/assets/screenshot.png)
+
 ![marketing-pages](docs/assets/social-card.png)
 
 ![marketing-pages — architecture](docs/assets/architecture.png)
