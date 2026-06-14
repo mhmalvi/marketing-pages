@@ -1,6 +1,8 @@
 <!-- repo-card -->
 ![marketing-pages](docs/assets/social-card.png)
 
+![marketing-pages — architecture](docs/assets/architecture.png)
+
 # Marketing Pages
 
 A collection of static landing pages built with HTML, CSS, and JavaScript. Each subdirectory contains a self-contained, responsive landing page ready for deployment.
